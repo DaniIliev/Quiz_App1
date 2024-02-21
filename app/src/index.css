@@ -12,8 +12,22 @@
 .app {
   height: 100vh;
   display: flex;
+  justify-content: center;
   background-color: rgb(0, 0, 131);
   color: white;
+  overflow: auto;
+}
+::-webkit-scrollbar-track {
+  background-color: blueviolet;
+  /* Handle */
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 .main {

@@ -1,8 +1,9 @@
 .moneyList{
 display: flex;
 flex-direction: column;
-gap: 10px;
+gap: 5px;
 width: 80%;
+height: auto;
 
 }
 .moneyListItem{

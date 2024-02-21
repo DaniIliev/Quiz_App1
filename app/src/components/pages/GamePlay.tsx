@@ -3,9 +3,10 @@ import Timer from "../shared/Timer";
 import Quiz from "../shared/Quiz";
 import MoneyList from "../shared/MoneyList";
 import * as api from "../../services/getQuestions"
-import { category } from "../../utils/category";
+import React from "react";
 
-const GamePlay = () => {
+const GamePlay = (category) => {
+  console.log(category)
 const [round, setRound] = useState('third')
 const [questions, setQuestions] = useState([])
   useEffect(() => {
